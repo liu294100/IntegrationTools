@@ -1,0 +1,15 @@
+路由器初始密码：admin  admin 
+初始WiFi密码：lucky_4637
+修改后的 admin jghy123456 
+wifi jghy12345678990.
+
+asus12345678
+
+
+1. 在「系统管理」- 「系统设置」里面打开「Allow SSH password login」的設置 
+2. 在 putty.org 下载 Putty 并安装  （或者SSH工具）
+3. 在 Putty 中使用路由器的 IP 地址来连接  
+4. 输入登录路由器的账号、密码  
+5. 输入 sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh  
+
+6. 重新离线安装 SSR 
