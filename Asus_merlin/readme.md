@@ -7,15 +7,19 @@
 此工具可以禁用Koolshare系统的包检测功能，允许安装非官方插件（如SSR等）。
 
 ### 方法一：使用脚本自动执行（推荐）
+1. 在「系统管理」-「系统设置」里面打开「Allow SSH password login」的设置
+2. 在 [putty.org](https://www.putty.org) 下载 Putty 并安装（或使用其他SSH工具）
+3. 在 Putty 中使用路由器的 IP 地址来连接
+4. 输入登录路由器的账号、密码
 
 通过以下任一命令直接执行:
 
 ```bash
 # 方法1: 使用curl
-sh -c "$(curl -sSL https://raw.githubusercontent.com/liu294100/IntegrationTools/main/disable_detect_package.sh)"
+sh -c "$(curl -sSL https://raw.githubusercontent.com/liu294100/IntegrationTools/main/Asus_merlin/disable_detect_package.sh)"
 
 # 方法2: 使用wget
-sh -c "$(wget -qO- https://raw.githubusercontent.com/liu294100/IntegrationTools/main/disable_detect_package.sh)"
+sh -c "$(wget -qO- https://raw.githubusercontent.com/liu294100/IntegrationTools/main/Asus_merlin/disable_detect_package.sh)"
 ```
 
 ### 方法二：手动SSH操作
