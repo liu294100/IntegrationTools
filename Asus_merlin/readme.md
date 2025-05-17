@@ -5,6 +5,7 @@
 ## 禁用包检测功能
 
 此工具可以禁用Koolshare系统的包检测功能，允许安装非官方插件（如SSR等）。
+https://github.com/hq450/fancyss
 
 ### 方法一：使用脚本自动执行（推荐）
 1. 在「系统管理」-「系统设置」里面打开「Allow SSH password login」的设置
