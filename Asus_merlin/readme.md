@@ -36,6 +36,8 @@ sh -c "$(wget -qO- https://raw.githubusercontent.com/liu294100/IntegrationTools/
    ```
 6. 完成后，您可以重新离线安装 SSR 或其他非官方插件
 
+http://192.168.50.1/Module_shadowsocks.asp
+
 ### 功能说明
 
 此工具会执行以下操作:
