@@ -14,6 +14,13 @@
 4. 输入登录路由器的账号、密码
 
 通过以下任一命令直接执行:  短链接：https://bit.ly/4kodli6
+例如：curl -fsSL https://bit.ly/4kodli6 
+-f: 失败时不输出 HTML 报错
+-s: 静默模式
+-S: 显示错误（和 -s 一起用）
+-L: 跟踪重定向（短链接跳转到 GitHub 需要）
+
+
 
 ```bash
 # 方法1: 使用curl
