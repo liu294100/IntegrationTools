@@ -5,7 +5,7 @@
 ## 禁用包检测功能
 
 此工具可以禁用Koolshare系统的包检测功能，允许安装非官方插件（如SSR等）。
-https://github.com/hq450/fancyss
+
 
 ### 方法一：使用脚本自动执行（推荐）
 1. 在「系统管理」-「系统设置」里面打开「Allow SSH password login」的设置
@@ -13,7 +13,7 @@ https://github.com/hq450/fancyss
 3. 在 Putty 中使用路由器的 IP 地址来连接
 4. 输入登录路由器的账号、密码
 
-通过以下任一命令直接执行:
+通过以下任一命令直接执行:  短链接：https://bit.ly/4kodli6
 
 ```bash
 # 方法1: 使用curl
@@ -68,3 +68,5 @@ sed -i 's/\t# detect_package/\tdetect_package/g' /koolshare/scripts/ks_tar_insta
 3. **操作失败怎么办？**
    - 请检查您是否有SSH权限，以及是否正确输入了命令
    - 确认您的路由器运行的是Koolshare固件
+
+参考开源项目https://github.com/hq450/fancyss
